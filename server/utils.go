@@ -1,7 +1,7 @@
 package server
 
 import (
-	"espad_task/pkg/translate"
+	"github.com/seed95/shortening/pkg/translate"
 	"sort"
 	"strconv"
 	"strings"

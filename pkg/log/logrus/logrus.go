@@ -2,9 +2,9 @@ package logrus
 
 import (
 	"errors"
-	"espad_task/pkg/log"
 	"github.com/alecthomas/units"
 	rotators "github.com/lestrrat-go/file-rotatelogs"
+	"github.com/seed95/shortening/pkg/log"
 	"github.com/sirupsen/logrus"
 	"github.com/xhit/go-str2duration/v2"
 	"io"

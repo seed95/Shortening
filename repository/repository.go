@@ -1,6 +1,6 @@
 package repository
 
-import "espad_task/domain/url"
+import "github.com/seed95/shortening/domain/url"
 
 type (
 	Repository interface {

@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package shortening;
 
-option go_package = "espad_task/api/shortening;shortening";
+option go_package = "github.com/seed95/shortening/api/shortening";
 
 message GenerateShortRequest {
   string original_link = 1;

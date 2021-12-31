@@ -1,10 +1,10 @@
 package validation
 
 import (
-	"espad_task/config"
-	"espad_task/pkg/log"
-	"espad_task/pkg/translate"
-	"espad_task/service"
+	"github.com/seed95/shortening/config"
+	"github.com/seed95/shortening/pkg/log"
+	"github.com/seed95/shortening/pkg/translate"
+	"github.com/seed95/shortening/service"
 )
 
 type (

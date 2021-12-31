@@ -2,11 +2,11 @@ package redis
 
 import (
 	"context"
-	"espad_task/config"
-	"espad_task/pkg/log/logrus"
-	"espad_task/pkg/translate/i18n"
 	"fmt"
 	goRedis "github.com/go-redis/redis/v8"
+	"github.com/seed95/shortening/config"
+	"github.com/seed95/shortening/pkg/log/logrus"
+	"github.com/seed95/shortening/pkg/translate/i18n"
 	"testing"
 )
 

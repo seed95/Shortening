@@ -5,7 +5,7 @@ package shortening;
 import "proto/shortening/messages.proto";
 import "google/api/annotations.proto";
 
-option go_package = "espad_task/api/shortening";
+option go_package = "github.com/seed95/shortening/api/shortening";
 
 service Shortening {
   rpc GenerateShort(shortening.GenerateShortRequest) returns (shortening.GenerateShortResponse) {

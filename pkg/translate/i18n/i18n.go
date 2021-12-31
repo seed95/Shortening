@@ -1,9 +1,9 @@
 package i18n
 
 import (
-	"espad_task/pkg/translate"
 	"github.com/BurntSushi/toml"
 	"github.com/nicksnyder/go-i18n/v2/i18n"
+	"github.com/seed95/shortening/pkg/translate"
 	"golang.org/x/text/language"
 	"path/filepath"
 )

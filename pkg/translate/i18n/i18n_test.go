@@ -1,8 +1,8 @@
 package i18n
 
 import (
-	"espad_task/pkg/translate"
-	"espad_task/pkg/translate/i18n/testdata"
+	"github.com/seed95/shortening/pkg/translate"
+	"github.com/seed95/shortening/pkg/translate/i18n/testdata"
 	"testing"
 )
 

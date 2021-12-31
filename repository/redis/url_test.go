@@ -1,11 +1,11 @@
 package redis
 
 import (
-	"espad_task/build/messages"
-	"espad_task/domain/url"
-	"espad_task/pkg/derrors"
-	"espad_task/pkg/random"
 	"fmt"
+	"github.com/seed95/shortening/build/messages"
+	"github.com/seed95/shortening/domain/url"
+	"github.com/seed95/shortening/pkg/derrors"
+	"github.com/seed95/shortening/pkg/random"
 	"testing"
 	"time"
 )

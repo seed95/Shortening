@@ -1,4 +1,4 @@
-module espad_task
+module github.com/seed95/shortening
 
 go 1.17
 

@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"espad_task/application"
+	"github.com/seed95/shortening/application"
 	"github.com/spf13/cobra"
 	"log"
 )

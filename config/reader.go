@@ -1,8 +1,8 @@
 package config
 
 import (
-	"espad_task/build/messages"
-	"espad_task/pkg/derrors"
+	"github.com/seed95/shortening/build/messages"
+	"github.com/seed95/shortening/pkg/derrors"
 	"gopkg.in/yaml.v2"
 	"os"
 	"path/filepath"

@@ -2,12 +2,12 @@ package redis
 
 import (
 	"context"
-	"espad_task/config"
-	"espad_task/pkg/log"
-	"espad_task/pkg/translate"
-	repo "espad_task/repository"
 	"fmt"
 	goRedis "github.com/go-redis/redis/v8"
+	"github.com/seed95/shortening/config"
+	"github.com/seed95/shortening/pkg/log"
+	"github.com/seed95/shortening/pkg/translate"
+	repo "github.com/seed95/shortening/repository"
 )
 
 type (

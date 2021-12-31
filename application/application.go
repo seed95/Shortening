@@ -1,15 +1,15 @@
 package application
 
 import (
-	"espad_task/config"
-	"espad_task/pkg/log"
-	"espad_task/pkg/log/logrus"
-	"espad_task/pkg/translate"
-	"espad_task/pkg/translate/i18n"
-	"espad_task/repository/redis"
-	shorteningServer "espad_task/server/rpc/shortening"
-	"espad_task/service/shortening"
-	"espad_task/service/validation"
+	"github.com/seed95/shortening/config"
+	"github.com/seed95/shortening/pkg/log"
+	"github.com/seed95/shortening/pkg/log/logrus"
+	"github.com/seed95/shortening/pkg/translate"
+	"github.com/seed95/shortening/pkg/translate/i18n"
+	"github.com/seed95/shortening/repository/redis"
+	shorteningServer "github.com/seed95/shortening/server/rpc/shortening"
+	"github.com/seed95/shortening/service/shortening"
+	"github.com/seed95/shortening/service/validation"
 )
 
 var cfg = &config.Config{}

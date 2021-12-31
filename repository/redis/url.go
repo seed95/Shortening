@@ -1,11 +1,11 @@
 package redis
 
 import (
-	"espad_task/build/messages"
-	"espad_task/domain/url"
-	"espad_task/pkg/derrors"
-	"espad_task/pkg/log"
 	"github.com/go-redis/redis/v8"
+	"github.com/seed95/shortening/build/messages"
+	"github.com/seed95/shortening/domain/url"
+	"github.com/seed95/shortening/pkg/derrors"
+	"github.com/seed95/shortening/pkg/log"
 )
 
 func (r *repository) AddUrl(url *url.Url) error {

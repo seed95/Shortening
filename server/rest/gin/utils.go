@@ -1,9 +1,9 @@
 package gin
 
 import (
-	"espad_task/pkg/translate"
-	"espad_task/server"
 	"github.com/gin-gonic/gin"
+	"github.com/seed95/shortening/pkg/translate"
+	"github.com/seed95/shortening/server"
 )
 
 func getLang(c *gin.Context) []translate.Language {

@@ -1,9 +1,9 @@
 package validation
 
 import (
-	"espad_task/build/messages"
-	"espad_task/pkg/derrors"
-	"espad_task/pkg/log"
+	"github.com/seed95/shortening/build/messages"
+	"github.com/seed95/shortening/pkg/derrors"
+	"github.com/seed95/shortening/pkg/log"
 )
 
 func (h *handler) Alias(alias string) error {

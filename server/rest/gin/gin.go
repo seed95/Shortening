@@ -1,13 +1,13 @@
 package gin
 
 import (
-	"espad_task/config"
-	"espad_task/pkg/log"
-	"espad_task/pkg/translate"
-	"espad_task/server/rest"
-	"espad_task/service"
 	"fmt"
 	goGin "github.com/gin-gonic/gin"
+	"github.com/seed95/shortening/config"
+	"github.com/seed95/shortening/pkg/log"
+	"github.com/seed95/shortening/pkg/translate"
+	"github.com/seed95/shortening/server/rest"
+	"github.com/seed95/shortening/service"
 )
 
 type (

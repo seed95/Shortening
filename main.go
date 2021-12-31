@@ -1,9 +1,9 @@
 package main
 
 import (
-	"espad_task/cmd"
 	"fmt"
 	"github.com/logrusorgru/aurora"
+	"github.com/seed95/shortening/cmd"
 )
 
 func main() {

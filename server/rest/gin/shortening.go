@@ -1,11 +1,11 @@
 package gin
 
 import (
-	"espad_task/build/messages"
-	"espad_task/pkg/derrors"
-	"espad_task/pkg/log"
-	"espad_task/server/params"
 	"github.com/gin-gonic/gin"
+	"github.com/seed95/shortening/build/messages"
+	"github.com/seed95/shortening/pkg/derrors"
+	"github.com/seed95/shortening/pkg/log"
+	"github.com/seed95/shortening/server/params"
 	"net/http"
 	"net/url"
 )

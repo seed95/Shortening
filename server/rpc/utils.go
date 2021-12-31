@@ -2,8 +2,8 @@ package rpc
 
 import (
 	"context"
-	"espad_task/pkg/translate"
-	"espad_task/server"
+	"github.com/seed95/shortening/pkg/translate"
+	"github.com/seed95/shortening/server"
 	"google.golang.org/grpc/metadata"
 	"strings"
 )
