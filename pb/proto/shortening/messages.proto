@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+package shortening;
+
+option go_package = "espad_task/api/shortening;shortening";
+
+message GenerateShortRequest {
+  string original_link = 1;
+  string alias = 2;
+  string expiration = 3;
+}
+
+message GenerateShortResponse {
+  string original_link = 1 [json_name="original_link"];
+  string short_link = 2 [json_name="short_link"];
+  string expiration = 3 [json_name="expiration"];
+}
+
+message GetOriginalRequest {
+  string key = 1;
+}
+
+message GetOriginalResponse {
+  string short_link = 1 [json_name="short_link"];
+  string original_link = 2 [json_name="original_link"];
+}
+
+message RedirectRequest {
+  string key = 1;
+}
+
+message RedirectResponse {
+  string short_link = 1 [json_name="short_link"];
+  string original_link = 2 [json_name="original_link"];
+}

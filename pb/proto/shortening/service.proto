@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package shortening;
+
+import "proto/shortening/messages.proto";
+import "google/api/annotations.proto";
+
+option go_package = "espad_task/api/shortening";
+
+service Shortening {
+  rpc GenerateShort(shortening.GenerateShortRequest) returns (shortening.GenerateShortResponse) {
+    option (google.api.http) = {
+      post: "/generate"
+      body: "*"
+    };
+  }
+
+  rpc GetOriginal(shortening.GetOriginalRequest) returns (shortening.GetOriginalResponse) {
+      option (google.api.http) = {
+        get: "/get/{key}"
+      };
+  }
+
+  rpc Redirect(shortening.RedirectRequest) returns (shortening.RedirectResponse) {
+    option (google.api.http) = {
+      get: "/{key}"
+    };
+  }
+
+}
+

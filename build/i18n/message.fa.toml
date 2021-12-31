@@ -1,0 +1,12 @@
+GeneralError = "خطایی رخ داده است"
+DBError = "خطایی وجود دارد"
+UnknownFileExtension = "پسوند فایل ناشناخته"
+
+InvalidAliasLength = "طول نام مستعار نامعتبر است"
+InvalidShortLink = "لینک کوتاه شده اشتباه است"
+InvalidExpiration = "مدت انقضا نامعتبر است"
+
+UrlNotFound = "لینک مورد نظر یافت نشد"
+ExistAlias = "نام مستعار وجود دارد"
+
+ParseQueryError = "خطای پارامترهای ورودی"

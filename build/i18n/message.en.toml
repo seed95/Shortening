@@ -1,0 +1,12 @@
+GeneralError = "an error has occurred"
+DBError = "error is exist"
+UnknownFileExtension = "unknown file extension"
+
+InvalidAliasLength = "invalid alias length"
+InvalidShortLink = "invalid short link"
+InvalidExpiration = "invalid expiration"
+
+UrlNotFound = "url not found"
+ExistAlias = "exist alias"
+
+ParseQueryError = "parse query error"

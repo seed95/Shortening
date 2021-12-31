@@ -1,0 +1,32 @@
+application:
+  expire: 365d # 1 year
+  alias_min_length: 6
+
+logger:
+  logrus:
+    internal_path: "./logs/internal"
+    filename_pattern: "%Y-%m-%dT%H:%M"
+    max_age: 720h
+    max_size: 20MB
+    rotation_time: "24h"
+
+translator:
+  i18n:
+    message_path: "./build/i18n"
+
+database:
+  redis:
+    host: localhost
+    port: 6379
+    password:
+    db: 0 # don't use 1, because used for test.
+
+
+
+server:
+  rest:
+    host: 127.0.0.1
+    port: 8085
+  grpc:
+    host: 127.0.0.1
+    port: 50050

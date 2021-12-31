@@ -1,0 +1,5 @@
+InvalidGender = "invalid gender"
+InvalidRole = "invalid role"
+UserNotFound = "user not found"
+
+DBError = "error is exist"

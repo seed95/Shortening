@@ -1,0 +1,5 @@
+InvalidGender = "جنسیت نامعتبر است"
+InvalidRole = "نقش نامعتبر است"
+UserNotFound = "کاربر مورد نظر یافت نشد"
+
+DBError = "خطایی وجود دارد"
