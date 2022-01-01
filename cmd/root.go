@@ -11,8 +11,8 @@ var (
 
 	rootCmd = &cobra.Command{
 		Use:   "shortening",
-		Short: "Shortening is a very simple service for shortening original links",
-		Long: `A very simple shortening service with MD5 for hash algorithm and base64 for encoding hash to represent to user.
+		Short: "Shortening is a very simple service for shortening links",
+		Long: `A very simple shortening link service with MD5 for hash algorithm and base64 for encoding hash to represent to user.
 
 Source code https://github.com/seed95/Shortening`,
 		Run: func(cmd *cobra.Command, args []string) {

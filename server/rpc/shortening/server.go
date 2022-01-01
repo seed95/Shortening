@@ -2,7 +2,9 @@ package shortening
 
 import (
 	"context"
+	"fmt"
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
+	"github.com/logrusorgru/aurora"
 	pb "github.com/seed95/shortening/api/proto/shortening"
 	"github.com/seed95/shortening/config"
 	"github.com/seed95/shortening/pkg/derrors"
@@ -59,6 +61,8 @@ func Start(opt *Option) error {
 		return err
 	}
 
+	fmt.Printf("gRPC Server start: %v\n", aurora.Green(grpcAddress))
+
 	reflection.Register(s)
 	return s.Serve(listener)
 
@@ -76,6 +80,7 @@ func (s *handler) startHttp(grpcAddress, restAddress string) error {
 	}
 
 	go func() {
+		fmt.Printf("Http Server start: %v\n", aurora.Green(restAddress))
 		_ = http.ListenAndServe(restAddress, wsproxy.WebsocketProxy(router))
 	}()
 
