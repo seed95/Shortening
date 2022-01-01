@@ -5,7 +5,7 @@ import (
 	"github.com/seed95/shortening/build/messages"
 	"github.com/seed95/shortening/pkg/derrors"
 	"github.com/seed95/shortening/pkg/log"
-	"github.com/seed95/shortening/server/params"
+	"github.com/seed95/shortening/server/rest/params"
 	"net/http"
 	"net/url"
 )

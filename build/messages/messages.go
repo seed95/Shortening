@@ -5,7 +5,6 @@ const (
 	UnknownFileExtension = "UnknownFileExtension"
 	DBError              = "DBError"
 
-	InvalidShortLink   = "InvalidShortLink"
 	InvalidAliasLength = "InvalidAliasLength"
 	InvalidExpiration  = "InvalidExpiration"
 

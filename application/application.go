@@ -65,13 +65,6 @@ func Run(opt *Option) error {
 		return err
 	}
 
-	//server := gin.New(&gin.Option{
-	//	Cfg:        &cfg.Server.Rest.Gin,
-	//	Shortening: shorteningService,
-	//	Logger:     logger,
-	//	Translator: translator,
-	//})
-
 	return shorteningServer.Start(&shorteningServer.Option{
 		Cfg:               &cfg.Server,
 		ShorteningService: shorteningService,

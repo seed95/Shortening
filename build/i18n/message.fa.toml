@@ -1,9 +1,8 @@
 GeneralError = "خطایی رخ داده است"
-DBError = "خطایی وجود دارد"
 UnknownFileExtension = "پسوند فایل ناشناخته"
+DBError = "خطایی وجود دارد"
 
 InvalidAliasLength = "طول نام مستعار نامعتبر است"
-InvalidShortLink = "لینک کوتاه شده اشتباه است"
 InvalidExpiration = "مدت انقضا نامعتبر است"
 
 UrlNotFound = "لینک مورد نظر یافت نشد"
